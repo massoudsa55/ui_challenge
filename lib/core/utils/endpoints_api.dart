@@ -1,13 +1,13 @@
-abstract class EndPoints{
-  static const Login = 'login';
-  static const Register = 'register';
-  static const Home = 'home';
-  static const Categories = 'categories';
-  static const Cart = 'carts';
-  static const Favorite = 'favorites';
-  static const Search = 'products/search';
-  static const Profile = 'profile';
-  static const UpdateProfile = 'update-profile';
-  static const Address = 'addresses';
-  static const Order = 'orders';
+abstract class EndPoints {
+  static const login = 'login';
+  static const register = 'register';
+  static const home = 'home';
+  static const categories = 'categories';
+  static const cart = 'carts';
+  static const favorite = 'favorites';
+  static const search = 'products/search';
+  static const urofile = 'profile';
+  static const updateProfile = 'update-profile';
+  static const address = 'addresses';
+  static const order = 'orders';
 }
