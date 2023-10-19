@@ -2,6 +2,7 @@ import 'package:dio/dio.dart';
 
 import '../utils/enums.dart';
 import '../utils/extentions.dart';
+import '../utils/failure.dart';
 
 Failure _handleError(DioException error) {
   switch (error.type) {
